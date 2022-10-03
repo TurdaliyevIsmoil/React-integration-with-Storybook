@@ -1,0 +1,52 @@
+.card {
+    display: flex;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid rgb(181, 181, 181);
+    background: #fff;
+    max-width: 500px;
+    width: 100%;
+}
+
+.card .content {
+    padding: 12px;
+}
+
+.cardrow {
+    flex-direction: row;
+    max-width: 600px;
+    align-items: stretch;
+    gap: 24px;
+}
+
+.cardrow img {
+    max-width: 50%;
+}
+
+.cardrow div {
+    justify-content: space-between;
+}
+
+.cardcolumn {
+    flex-direction: column;
+    max-width: 400px;
+}
+
+.card img {
+    border-radius: 8px;
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.106);
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.content>div {
+    display: flex;
+    justify-content: space-between;
+}
